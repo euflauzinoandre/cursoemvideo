@@ -112,20 +112,24 @@
 	<hr>
 
 	<h1>======== IMAGENS</h1>
-	<picture>
-
+	<picture >
+		<source media="(max-width: 750px)" srcset="image/small.png" type="image/png">
+		<source media="(max-width: 1050px)" srcset="image/medium.png" type="image/png">
+		<img src="image/big.png" alt="big">
 	</picture>
 	<hr>
 
 	<h1>======== AUDIO</h1>
-	<audio src="" autoplay controls>
-
+	<audio preload="metadata" controls loop>
+		<source src="media/reliable-safe-327618.mp3" type="audio/mpeg">
+		<source src="media/test-ogg.ogg" type="audio/ogg">
+		<source src="media/test-wav.wav" type="audio/wav">
 	</audio>
 	<hr>
 
 	<h1>======== VIDEOS</h1>
-	<video src="" autoplay controls>
-
+	<video width="500" poster="" controls>
+		<source src="video/276624_tiny.mp4" type="video/mp4">
 	</video>
 	<hr>
 </body>
