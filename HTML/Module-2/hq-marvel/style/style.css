@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.center{
+	text-align: center;
+}
+
+#figure-1{
+	background-image: url("../images/spiderman_mono.jpg");
+	background-size: cover;
+}
+#figure-1:hover{
+	background-image: url("../images/spiderman_color.jpg");
+	background-size: cover;
+}
+
+#figure-2{
+	background-image: url("../images/wolverine_mono.jpg");
+	background-size: cover;
+}
+#figure-2:hover{
+	background-image: url("../images/wolverine_color.jpg");
+	background-size: cover;
+}
+
+#figure-3{
+	background-image: url("../images/hulk_mono.jpg");
+	background-size: cover;
+}
+#figure-3:hover{
+	background-image: url("../images/hulk_color.jpg");
+	background-size: cover;
+}
+
+div.image{
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px grey;
+	height: 300px;
+	width: 210px;
+	margin: 10px 40px 10px 40px;
+}
+
+div.title{
+	display: inline-block;
+	height: 50px;
+	width: 210px;
+	margin: 10px 40px 10px 40px;
+}
+
+div.text{
+	display: inline-block;
+	text-align: justify;
+	height: 300px;
+	width: 210px;
+	margin: 10px 40px 10px 40px;
+}
