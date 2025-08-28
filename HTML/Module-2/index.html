@@ -16,6 +16,28 @@
 		h1, polygon{
 			color: white;
 		}
+		.social-media{
+
+			text-decoration: none;
+		}
+		.social-media:hover{
+			background-color: aqua;
+			text-decoration: none;
+		}
+		.social-media:visited{
+			background-color: darkcyan;
+		}
+		.social-media:active{
+			color: yellow;
+		}
+		.social-media::before{
+			content: "✅";
+		}
+		.social-media::after{
+			content: " [link]";
+			font-size: 10px;
+			text-decoration: none;
+		}
 	</style>
 </head>
 <body>
@@ -35,5 +57,11 @@
 	<!-- Representação por HSL (Hue, Saturation, Luminosity) -->
 	<h2 style="background-color: hsl(240, 100%, 50%);color: hsl(0, 0%, 100%);">Exemplo de Cores</h2>
 	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis pariatur praesentium alias sint mollitia saepe officia molestiae suscipit architecto inventore, odio voluptatibus quidem qui perferendis, non ex esse necessitatibus consequatur.</p>
+	<div style="background-color: white; width: 300px; height: 150px;text-align: left; margin: 10px; padding: 5px;">
+		<h2>Links</h2>
+		<li><a href="https://youtube.com" target="_blank" class="social-media">YouTube</a></li>
+		<li><a href="https://twitch.tv" target="_blank" class="social-media">Twitch</a></li>
+		<li><a href="https://github.com/euflauzinoandre" target="_blank" class="social-media">Github</a></li>
+	</div>
 </body>
 </html>
